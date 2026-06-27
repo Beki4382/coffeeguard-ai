@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coffeeguard-ai"
+version = "0.1.0"
+description = "Coffee leaf disease classification with EfficientNet-B0 and Gradio."
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.2",
+  "torchvision>=0.17",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "pandas>=2.2",
+  "pillow>=10.0",
+  "gradio>=4.44",
+  "reportlab>=4.2",
+  "tqdm>=4.66",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

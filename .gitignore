@@ -1,0 +1,19 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+data/raw/
+data/interim/
+data/processed/
+models/
+reports/
+*.pt
+*.pth
+
+logs/
+wandb/
+.gradio/
+
+Project II_ Application of DNN Based CV .pdf
